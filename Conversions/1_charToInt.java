@@ -1,5 +1,13 @@
+/*
+Using ASCII Values
+Using String.valueOf() Method
+Using Character.getNumericValue() Method
+*/
+
+
 public class Main{
     public static void main(String[] args){
+        // 1-Using ascii value
         char c = '3';
         int a = c - '0';
         System.out.println("Integer value is:" + a);
@@ -8,39 +16,18 @@ public class Main{
         for(char i='a'; i<='z';i++){
             System.out.println((int)i);
         }
+        
+        // 2 String.valueOf() Method
+        char x = '4';
+        int ans = Integer.parseInt(String.valueOf(x));
+        System.out.println(ans);
+        
+        // 3 Using Character.getNumericValue() Method
+        char j = '9';
+        int k = Character.getNumericValue(j);
+        System.out.println(k);
     }
 }
 
-/*
-Output:-
-Integer value is:3
-Charcater value is:3
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
 
-=== Code Execution Successful ===
-*/
+
