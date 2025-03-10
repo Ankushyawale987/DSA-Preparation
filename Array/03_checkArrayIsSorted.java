@@ -1,4 +1,5 @@
 /*
+**Check if Array Is Sorted and Rotated**
 Case Study: 
 1. Array is Sorted and In Ascending order So Remember and design the Solution in such way.
 Array is given in non decending order means array is in Ascending Order (ascending / Increasing / Non-decreasing)
