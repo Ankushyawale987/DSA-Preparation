@@ -1,7 +1,7 @@
 // Case-1: Length is Zero
 // Case-2: Length is 1
 // Case-3: find Second Large Number
-// I have implemented the login for the largest is reapeated in the array
+// I have implemented the login for the Second largest is reapeated in the array
 import java.util.*;
 class Main {
     public int SecondLarge(int[] arr){
