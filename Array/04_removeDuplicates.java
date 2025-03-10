@@ -1,4 +1,4 @@
-
+ 
 /*
 Case Study:
 Given an integer array nums sorted in non-decreasing order, 
@@ -8,6 +8,10 @@ Then return the number of unique elements in nums.
 
 Consider the number of unique elements of nums to be k. 
 The remaining elements of nums are not important as well as the size of nums. Return k.
+
+
+Brute force: Make HashSet and add Elements in set and return the size of set. (TC: O(N) and SC: O(N))
+Optimal: Two Pointer Approach
 */
 class Main {
     public int removeDuplicates(int[] nums){
