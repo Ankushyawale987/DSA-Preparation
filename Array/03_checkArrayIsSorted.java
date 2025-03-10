@@ -1,6 +1,6 @@
 /*
 Case Study: 
-Array is given in non decending order means array is in Acending Order 
+Array is given in non decending order means array is in Ascending Order (ascending / Increasing / Non-decreasing)
 So check the count of of next array element is small or not,
 if it is more than 1 then it is false 
 otherwise true.
