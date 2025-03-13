@@ -53,3 +53,13 @@ public class VectorExample {
         System.out.println("Is vector empty? " + vector.isEmpty());
     }
 }
+
+/*
+Differences Between ArrayList and Vector
+Feature	                    ArrayList    	                           Vector
+Synchronization	        Not synchronized	                Synchronized (thread-safe)
+Performance	Faster (better for single-threaded)	            Slower due to synchronization
+Growth Rate	            Increases by 50%	                        Doubles in size
+Thread Safety	                No	                                    Yes
+Usage	        Preferred in single-threaded applications	    Used in multi-threaded applications
+*/
